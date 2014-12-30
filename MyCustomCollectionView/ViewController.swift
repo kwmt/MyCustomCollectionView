@@ -43,8 +43,8 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
   //セルを返す
   func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as MyCollectionViewCell
-    cell.backgroundColor = UIColor.orangeColor()
-    
+    cell.textLabel.text = "Text"
+    cell.imageView.image = UIImage(named: "star")
     return cell
   }
 }
