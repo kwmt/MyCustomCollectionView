@@ -12,13 +12,23 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    var myNib = UINib(nibName: "MyCollectionViewCell", bundle: nil)
+    
+    //nibからviewを取得
+    var myArray = myNib.instantiateWithOwner(nil, options: nil)
+    var myCollectionViewCell = myArray[0] as MyCollectionViewCell
+    
+    //viewから幅、高さを取得
+    var width = myCollectionViewCell.frame.width
+    var height = myCollectionViewCell.frame.height
+    
     let layout:UICollectionViewFlowLayout = UICollectionViewFlowLayout()
     layout.sectionInset = UIEdgeInsets(top: 20, left: 10, bottom: 10, right: 10)
-    layout.itemSize = CGSize(width: 90, height: 120)
+    layout.itemSize = CGSize(width: width, height: height)
     collectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
     collectionView!.dataSource = self
     collectionView!.delegate = self
-    collectionView!.registerClass(MyCollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+    collectionView!.registerNib(myNib, forCellWithReuseIdentifier: "Cell")
     collectionView!.backgroundColor = UIColor.whiteColor()
     self.view.addSubview(collectionView!)
     

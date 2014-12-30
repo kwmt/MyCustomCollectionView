@@ -15,6 +15,7 @@
 		7176DE131A525F7C00581808 /* MyCustomCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176DE121A525F7C00581808 /* MyCustomCollectionViewTests.swift */; };
 		7176DE1D1A52619B00581808 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176DE1C1A52619B00581808 /* MyCollectionViewCell.swift */; };
 		7176DE1F1A5263DB00581808 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7176DE1E1A5263DB00581808 /* star@2x.png */; };
+		7176DE211A526A3300581808 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7176DE201A526A3300581808 /* MyCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		7176DE121A525F7C00581808 /* MyCustomCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewTests.swift; sourceTree = "<group>"; };
 		7176DE1C1A52619B00581808 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		7176DE1E1A5263DB00581808 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		7176DE201A526A3300581808 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				7176DDFC1A525F7C00581808 /* AppDelegate.swift */,
 				7176DDFE1A525F7C00581808 /* ViewController.swift */,
 				7176DE1C1A52619B00581808 /* MyCollectionViewCell.swift */,
+				7176DE201A526A3300581808 /* MyCollectionViewCell.xib */,
 				7176DE1E1A5263DB00581808 /* star@2x.png */,
 				7176DE001A525F7C00581808 /* Main.storyboard */,
 				7176DE031A525F7C00581808 /* Images.xcassets */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7176DE211A526A3300581808 /* MyCollectionViewCell.xib in Resources */,
 				7176DE021A525F7C00581808 /* Main.storyboard in Resources */,
 				7176DE071A525F7C00581808 /* LaunchScreen.xib in Resources */,
 				7176DE1F1A5263DB00581808 /* star@2x.png in Resources */,
