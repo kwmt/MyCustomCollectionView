@@ -13,6 +13,7 @@
 		7176DE041A525F7C00581808 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7176DE031A525F7C00581808 /* Images.xcassets */; };
 		7176DE071A525F7C00581808 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7176DE051A525F7C00581808 /* LaunchScreen.xib */; };
 		7176DE131A525F7C00581808 /* MyCustomCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176DE121A525F7C00581808 /* MyCustomCollectionViewTests.swift */; };
+		7176DE1D1A52619B00581808 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176DE1C1A52619B00581808 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7176DE0C1A525F7C00581808 /* MyCustomCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCustomCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7176DE111A525F7C00581808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7176DE121A525F7C00581808 /* MyCustomCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewTests.swift; sourceTree = "<group>"; };
+		7176DE1C1A52619B00581808 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				7176DDFC1A525F7C00581808 /* AppDelegate.swift */,
 				7176DDFE1A525F7C00581808 /* ViewController.swift */,
+				7176DE1C1A52619B00581808 /* MyCollectionViewCell.swift */,
 				7176DE001A525F7C00581808 /* Main.storyboard */,
 				7176DE031A525F7C00581808 /* Images.xcassets */,
 				7176DE051A525F7C00581808 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				7176DDFF1A525F7C00581808 /* ViewController.swift in Sources */,
 				7176DDFD1A525F7C00581808 /* AppDelegate.swift in Sources */,
+				7176DE1D1A52619B00581808 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
